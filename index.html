@@ -1,9 +1,285 @@
-cd username.github.io
+<!DOCTYPE html>
+<html lang="en">
 
-echo "Hello World" > index.html
+<head>
 
-git add --all
+    <!-- Basic Page Info
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>hey! hi! hello!</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-git commit -m "Initial commit"
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-git push -u origin master
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="fonts/webfonts.css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600%7CLato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <!-- ICON FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/ionicons.min.css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="elements/css/elements.css">
+    <link rel="stylesheet" href="stylesheets/sinister.css">
+    <link rel="stylesheet" href="stylesheets/venobox.css">
+    <link rel="stylesheet" href="stylesheets/slimmenu.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/main-bg.css">
+    <link rel="stylesheet" href="stylesheets/main-responsive.css">
+
+    <!-- LESS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <link rel="stylesheet/less" type="text/css" href="less/color.less">
+    <link rel="stylesheet/less" type="text/css" href="less/fonts.less">
+    <script src="less/less.min.js"></script> -->
+
+
+</head>
+
+<body>
+
+
+    <!-- Preloader
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!-- end : preloader -->
+
+
+    <!-- Nav Link Show Panel
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="link-show-poster">
+      <div class=""><h1 class="black font2"></h1></div>
+    </div>
+
+    <!-- Mobile Only Navigation
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="mobile-nav ">
+                <ul class="slimmenu font1">
+                  <li>
+                  <li><a href="index.html">portfolio</a></li>
+                  <li><a href="about01.html">about me</a></li>
+
+                  <li><a href="contact.html">say hello</a></li>
+                </ul>
+    </nav>
+    <!-- mobile only navigation : ends -->
+
+    <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section class="logo-header">
+
+        <div class="logo-block">
+          <a href="index.html"><img alt="" title="" class="img-responsive" src="images/favicon.png"></a>
+        </div>
+
+
+          <div class="social-block">
+            <ul>
+              <li><a href="www.twitter.com/cathyriani"><span class="ion-social-twitter black"></span></a></li>
+              <li><a href="www.instagram.com/cathyriani"><span class="ion-social-instagram black"></span></a></li>
+              <li><a href="#"><span class="ion-social-dribbble-outline black"></span></a></li>
+            </ul>
+          </div>
+
+    </section>
+
+    <header class="masthead ">
+      <div class="container">
+        <div class="row">
+          <!-- <article class="col-md-3">
+            <a href="index.html"><img alt="" title="" class="main-logo " src="images/logo.png"></a>
+          </article> -->
+          <article class="col-md-6 text-left no-pad">
+            <nav class="mastnav ">
+
+                  <ul class="main-menu ">
+                    <li>
+                      <li><a class="main-link font1" href="index.html">portfolio</a></li>
+
+                    <li><a class="main-link font1" href="about01.html">about me</a></li>
+
+
+                    <li><a class="main-link font1" href="contact.html">say hello</a></li>
+                  </ul>
+            </nav>
+          </article>
+          <article class="col-md-6 no-pad">
+              <!--works filter panel :starts -->
+                <div class="works-filter-wrap">
+                    <ul class="works-filter  text-right clearfix font2">
+                        <li><a id="all" href="#" data-filter="*" class="active"><span>all</span></a></li><li><a href="#" data-filter=".branding"><span>branding</span></a></li>
+                        <li><a href="#" data-filter=".graphics"><span>graphics</span></a></li>
+                        <li><a href="#" data-filter=".logos"><span>logos</span></a></li>
+                        <li><a href="#" data-filter=".ui"><span>ui</span></a></li>
+                        <li><a href="#" data-filter=".web"><span>web</span></a></li>
+                    </ul>
+              </div>
+            <!-- works filter panel :ends -->
+          </article>
+        </div>
+      </div>
+    </header>
+    <!-- end : masthead -->
+
+
+    <!-- MASTER CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section class="mastwrap add-bottom">
+
+      <section class="container about pad-top-half pad-bottom-half">
+
+        <div class="row">
+              <article class="col-md-5 text-left  inner-pad">
+                <h6 class="super-text  font2bold black">hello! <br/>i'm cathy</h6>
+              </article>
+              <article class="col-md-5 col-md-offset-2 text-left ">
+                <h3 class="main-heading  font2light black">a designer based in toronto, ontario.</h3>
+              </article>
+        </div>
+
+      </section>
+
+
+<section class="container intro-01 ">
+
+         <section id="works-container" class="works-container  works-masonry-container clearfix works-thumbnails-view">
+
+           <!-- start : works-item -->
+          <div class="works-item  ImageWrapper works-item-one-half zoom logos graphics ui">
+                  <img data-no-retina alt="" title="" class="img-responsive" src="images/works/tudu1.png"/>
+                  <a href="project6.html">
+                      <div class="works-item-inner ImageOverlayCl">
+                        <p class="valign text-center"><span class="white font1">TUDU</span></p>
+                      </div>
+                  </a>
+          </div>
+          <!-- end : works-item -->
+
+
+
+              <!-- start : works-item -->
+              <div class="works-item  ImageWrapper works-item-one-half info branding graphics">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/HANIA.gif"/>
+                      <a href="project.html">
+                          <div class="works-item-inner ImageOverlayCl">
+                            <p class="valign text-center"><span class="white font1">hania kuzbari</span></p>
+                          </div>
+                      </a>
+              </div>
+              <!-- end : works-item -->
+
+
+              <!-- start : works-item -->
+              <div class="works-item  ImageWrapper works-item-one-half info branding graphics web">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/455.gif"/>
+                      <a  href="project2.html">
+                          <div class="works-item-inner ImageOverlayCl">
+                            <p class="valign text-center"><span class="white font1">four fifty five</span></p>
+                          </div>
+                      </a>
+              </div>
+              <!-- end : works-item -->
+
+
+              <!-- start : works-item -->
+              <div class="works-item  ImageWrapper works-item-one-half info ui graphics">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/fd.png"/>
+                      <a href="project3.html">
+                          <div class="works-item-inner ImageOverlayCl">
+                            <p class="valign text-center"><span class="white font1">the food dudes</span></p>
+                          </div>
+                      </a>
+              </div>
+              <!-- end : works-item -->
+
+          <!-- start : works-item -->
+              <div class="works-item  ImageWrapper works-item-one-half info graphics">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/patheon.png"/>
+                      <a  href="project4.html">
+                          <div class="works-item-inner ImageOverlayCl">
+                            <p class="valign text-center"><span class="white font1">patheon</span></p>
+                          </div>
+                      </a>
+              </div>
+              <!-- end : works-item -->
+
+
+              <!-- start : works-item -->
+              <div class="works-item  ImageWrapper works-item-one-half info graphics">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/group.png"/>
+                      <a  href="project5.html">
+                          <div class="works-item-inner ImageOverlayCl">
+                            <p class="valign text-center"><span class="white font1">usability</span></p>
+                          </div>
+                      </a>
+              </div>
+              <!-- end : works-item -->
+
+              <!-- start : works-item -->
+             <div class="works-item  ImageWrapper works-item-one-half zoom logos graphics ui">
+                     <img data-no-retina alt="" title="" class="img-responsive" src="images/works/viridi.png"/>
+                     <a href="project7.html">
+                         <div class="works-item-inner ImageOverlayCl">
+                           <p class="valign text-center"><span class="white font1">viridi</span></p>
+                         </div>
+                     </a>
+             </div>
+             <!-- end : works-item -->
+
+
+            </section>
+            <!-- end : works-container -->
+
+  </section>
+
+
+    </section>
+    <!-- end : mastwrap -->
+
+
+    <!-- FOOTER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <footer class="mastfoot">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-5 text-left">
+          <h3 class="font2 black">cathy riani</h3>
+          <h6 class="font1 grey">a self taught designer & proud plant parent from toronto.</h6>
+        </article>
+        <article class="col-md-5 col-md-offset-2 text-left">
+          <h3 class="font2 black">&copy;</h3>
+          <h6 class="font1 grey">Copyright 2019 Cathy Riani.<br/><a</a></h6>
+        </article>
+      </div>
+    </div>
+
+  </footer>
+    <!-- end : mastfoot -->
+
+
+    <!-- End Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="javascripts/libs/common.js"></script>
+    <script src="elements/js/elements.js"></script>
+    <script src="javascripts/custom/main.js"></script>
+
+</body>
+
+</html>
